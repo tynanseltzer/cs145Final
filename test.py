@@ -1,6 +1,9 @@
 import tensorflow
 import time
+import sys
 
-while True:
-    print("Printing")
-    time.sleep(1)
+with open ("results.txt", 'w') as f:
+    for i in range(50):
+        f.write(str(time.time()) + "\n")
+        sys.stdout.flush()
+        time.sleep(1)

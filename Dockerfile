@@ -28,4 +28,4 @@ RUN mkdir /root/trainer
 COPY test.py /root/test.py
 
 # Sets up the entry point to invoke the trainer.
-ENTRYPOINT ["python", "test.py"]
+ENTRYPOINT ["python -u", "test.py"]
