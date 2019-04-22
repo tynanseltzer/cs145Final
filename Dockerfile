@@ -25,4 +25,6 @@ RUN pip install tensorflow
 #COPY test.py /home/ubuntu/test.py
 
 # Sets up the entry point to invoke the trainer.
+
+WORKDIR /home/tynanseltzer/cs145Final
 ENTRYPOINT ["python", "test.py"]
