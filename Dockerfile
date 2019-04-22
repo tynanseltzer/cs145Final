@@ -21,7 +21,7 @@ WORKDIR /home
 
 RUN mkdir /home/experiments
 
-COPY test.py /home/experiments
+COPY test.py /home/experiments/test.py
 
 # Sets up the entry point to invoke the trainer.
 ENTRYPOINT ["python", "experiments/test.py"]
