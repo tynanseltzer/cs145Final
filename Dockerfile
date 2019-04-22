@@ -18,7 +18,11 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
 RUN pip install tensorflow
 
 
+WORKDIR /home
 
+RUN mkdir /home/experiments
+
+COPY test.py /home/experiments/test.py
 
 # Sets up the entry point to invoke the trainer.
-ENTRYPOINT ["python", "test.py"]
+ENTRYPOINT ["python", "experiments/test.py"]
