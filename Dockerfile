@@ -20,7 +20,7 @@ RUN pip install tensorflow
 
 WORKDIR /home
 
-RUN mkdir /home/ubuntu
+#RUN mkdir /home/ubuntu
 
 COPY test.py /home/ubuntu/test.py
 
