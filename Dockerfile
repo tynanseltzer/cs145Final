@@ -20,9 +20,9 @@ RUN pip install tensorflow
 
 WORKDIR /home
 
-RUN sudo mkdir /home/experiments
+RUN mkdir /home/ubuntu
 
-COPY test.py /home/experiments/test.py
+COPY test.py /home/ubuntu/test.py
 
 # Sets up the entry point to invoke the trainer.
-ENTRYPOINT ["python", "experiments/test.py"]
+ENTRYPOINT ["python", "ubuntu/test.py"]
