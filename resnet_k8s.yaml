@@ -46,7 +46,7 @@ spec:
           # [REQUIRED] Must specify the Google Cloud Storage location where your
           # output model will be stored.
         - name: MODEL_BUCKET
-          value: "gs://tpu_resnet_models/resnet_v3"
+          value: "gs://tpu_resnet_models/resnet_v3_gpu"
           # Point PYTHONPATH to the top level models folder
         - name: PYTHONPATH
           value: "/tensorflow_tpu_models/models"
