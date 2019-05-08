@@ -50,7 +50,7 @@ spec:
           value: "gs://tpu_resnet_models/resnet_v3_gpu"
           # Point PYTHONPATH to the top level models folder
         - name: PYTHONPATH
-          value: "/tensorflow__models"
+          value: "/tensorflow_models"
         resources:
           limits:
             # Request a single v2-8 Cloud TPU device to train the model.
