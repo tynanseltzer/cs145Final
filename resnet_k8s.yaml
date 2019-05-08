@@ -38,6 +38,7 @@ spec:
         - --data_dir=$(DATA_BUCKET)
         - --model_dir=$(MODEL_BUCKET)
         - --hparams=train_steps=50040
+        - --hparams=use_tpu=False
         env:
           # The Google Cloud Storage location where the fake ImageNet dataset is
           # stored.
