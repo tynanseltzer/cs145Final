@@ -37,7 +37,7 @@ spec:
         - /tensorflow_models/official/resnet/imagenet_main.py
         - --data_dir=$(DATA_BUCKET)
         - --model_dir=$(MODEL_BUCKET)
-        - --hparams=train_steps=50040
+        - --train_epochs=40
         - --resnet_size=50
         env:
           # The Google Cloud Storage location where the fake ImageNet dataset is
