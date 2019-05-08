@@ -34,12 +34,10 @@ spec:
         image: gcr.io/tensorflow/tpu-models:r1.11
         command:
         - python
-        - /tensorflow_tpu_models/models/official/resnet/resnet_main.py
+        - /tensorflow_models/models/official/resnet/resnet_main.py
         - --data_dir=$(DATA_BUCKET)
         - --model_dir=$(MODEL_BUCKET)
         - --hparams=train_steps=50040
-        - --hparams=use_tpu=False
-        - --hparams=context=_GPUContext
         env:
           # The Google Cloud Storage location where the fake ImageNet dataset is
           # stored.
@@ -51,7 +49,7 @@ spec:
           value: "gs://tpu_resnet_models/resnet_v3_gpu"
           # Point PYTHONPATH to the top level models folder
         - name: PYTHONPATH
-          value: "/tensorflow_tpu_models/models"
+          value: "/tensorflow__models/models"
         resources:
           limits:
             # Request a single v2-8 Cloud TPU device to train the model.
