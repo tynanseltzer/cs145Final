@@ -18,7 +18,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get update && \
     apt-get install -y google-cloud-sdk && \
     pip install pyyaml && \
-    pip install tensorflow==1.11 && \
     pip install google-cloud-storage
 
 RUN git clone -b r1.11 --depth 1 https://github.com/tensorflow/models.git /tensorflow_models
