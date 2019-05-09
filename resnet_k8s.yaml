@@ -31,7 +31,7 @@ spec:
       containers:
       - name: resnet-gpu
         # The official TensorFlow 1.11 TPU model image built from https://github.com/tensorflow/tpu/blob/r1.11/tools/docker/Dockerfile.
-        image: gcr.io/tensorflow/tpu-models:r1.11
+        image: gcr.io/cs145-238320/gpu_resnet:latest
         command:
         - python
         - /tensorflow_models/official/resnet/imagenet_main.py
