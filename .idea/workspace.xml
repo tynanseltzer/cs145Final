@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e254fe-1b73-4773-8cdf-e6f2adf3c668" name="Default Changelist" comment="" />
+    <list default="true" id="46e254fe-1b73-4773-8cdf-e6f2adf3c668" name="Default Changelist" comment="Use 8 gpus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resnet_k8s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resnet_k8s.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,39 +19,43 @@
     <session id="-1941870524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="2" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="2" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="326" />
+          <entry key="Dockerfile" value="365" />
           <entry key="py" value="183" />
-          <entry key="yaml" value="10" />
+          <entry key="txt" value="344" />
+          <entry key="yaml" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="326" />
+          <entry key="Dockerfile" value="365" />
+          <entry key="PLAIN_TEXT" value="344" />
           <entry key="Python" value="183" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="192" />
         </counts>
       </usages-collector>
     </session>
@@ -60,17 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="174">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -96,6 +95,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>train_ste</find>
+      <find>ValueErr</find>
+      <find>project=F</find>
+      <find>FLAGS.tpu</find>
+      <find>use_tpu</find>
+      <find>hparams</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,13 +218,119 @@
       <option name="presentableId" value="Default" />
       <updated>1555880194062</updated>
     </task>
+    <task id="LOCAL-00001" summary="Just use TPU model for GPU training?">
+      <created>1556401399980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556401399980</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trying to create an image">
+      <created>1557201841473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557201841473</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added no tpu">
+      <created>1557330344853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557330344853</updated>
+    </task>
+    <task id="LOCAL-00004" summary="context">
+      <created>1557333431167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557333431167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Maybe tpu image has non tpu models?">
+      <created>1557343709206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557343709206</updated>
+    </task>
+    <task id="LOCAL-00006" summary="more changes from tpu to gpu">
+      <created>1557347005009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557347005009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="typo?">
+      <created>1557347224438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557347224438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="flags">
+      <created>1557347415543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557347415543</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new bucket">
+      <created>1557352804887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557352804887</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Request for memory">
+      <created>1557353634988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557353634988</updated>
+    </task>
+    <task id="LOCAL-00011" summary="old bucket could not set up">
+      <created>1557357743693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557357743693</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Use 8 gpus">
+      <created>1557365858950</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557365858950</updated>
+    </task>
+    <task id="LOCAL-00013" summary="correct file, final">
+      <created>1557365946592</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557365946592</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Using my own docker">
+      <created>1557369246644</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557369246644</updated>
+    </task>
+    <task id="LOCAL-00015" summary="not installing tensorflow twice">
+      <created>1557369584218</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557369584218</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="67" width="1164" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.31639928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.35650623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50291544" side_tool="true" weight="0.31639928" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,14 +361,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Just use TPU model for GPU training?" />
+    <MESSAGE value="Trying to create an image" />
+    <MESSAGE value="added no tpu" />
+    <MESSAGE value="context" />
+    <MESSAGE value="Maybe tpu image has non tpu models?" />
+    <MESSAGE value="more changes from tpu to gpu" />
+    <MESSAGE value="typo?" />
+    <MESSAGE value="flags" />
+    <MESSAGE value="new bucket" />
+    <MESSAGE value="Request for memory" />
+    <MESSAGE value="old bucket could not set up" />
+    <MESSAGE value="Use 8 gpus" />
+    <MESSAGE value="correct file, final" />
+    <MESSAGE value="Using my own docker" />
+    <MESSAGE value="not installing tensorflow twice" />
+    <option name="LAST_COMMIT_MESSAGE" value="not installing tensorflow twice" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/resnet_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="63" column="38" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/resnet_main.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -266,17 +388,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resnet_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="174">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

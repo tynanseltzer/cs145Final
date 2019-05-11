@@ -21,3 +21,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     pip install google-cloud-storage
 
 RUN git clone -b r1.11 --depth 1 https://github.com/tensorflow/models.git /tensorflow_models
+
+RUN git clone -b r1.11 --depth 1 https://github.com/tensorflow/tpu.git /tensorflow_tpu_models
