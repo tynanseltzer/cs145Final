@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.11.0-rc0-gpu
+FROM tensorflow/tensorflow:1.12.0-rc0-gpu
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         curl \
