@@ -35,10 +35,10 @@ spec:
         command:
         - python
         - /tensorflow_tpu_models/models/official/resnet/resnet_main.py
-          - --data_dir=$(DATA_BUCKET)
-          - --model_dir=$(MODEL_BUCKET)
-          - --hparams=train_steps=50040
-          - --hparams=use_tpu=False
+        - --data_dir=$(DATA_BUCKET)
+        - --model_dir=$(MODEL_BUCKET)
+        - --hparams=train_steps=50040
+        - --hparams=use_tpu=False
 
 
 
