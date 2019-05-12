@@ -39,9 +39,9 @@ spec:
         - --model_dir=$(MODEL_BUCKET)
         - --train_epochs=40
         - --resnet_size=50
-        - --num_gpus=4
+        - --num_gpus=2
         - --epochs_between_evals=1
-        - --batch_size=512
+        - --batch_size=256
         env:
           # The Google Cloud Storage location where the fake ImageNet dataset is
           # stored.
@@ -62,4 +62,4 @@ spec:
             # A single v2-8 Cloud TPU device consists of 4 chips, each of which
             # has 2 cores, so there are 8 cores in total.
             #cloud-tpus.google.com/v3: 8
-            nvidia.com/gpu: 4
+            nvidia.com/gpu: 2
