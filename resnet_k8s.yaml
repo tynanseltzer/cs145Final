@@ -58,7 +58,7 @@ spec:
           value: "/tensorflow_tpu_models/models"
         resources:
           requests:
-            memory: "50Gi"
+            memory: "12Gi"
           limits:
             # Request a single v2-8 Cloud TPU device to train the model.
             # A single v2-8 Cloud TPU device consists of 4 chips, each of which
