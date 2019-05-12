@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e254fe-1b73-4773-8cdf-e6f2adf3c668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resnet_k8s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resnet_k8s.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,16 +44,16 @@
         <counts>
           <entry key="Dockerfile" value="383" />
           <entry key="py" value="183" />
-          <entry key="txt" value="467" />
-          <entry key="yaml" value="280" />
+          <entry key="txt" value="506" />
+          <entry key="yaml" value="312" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="383" />
-          <entry key="PLAIN_TEXT" value="467" />
+          <entry key="PLAIN_TEXT" value="506" />
           <entry key="Python" value="183" />
-          <entry key="YAML" value="280" />
+          <entry key="YAML" value="312" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="163">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -371,12 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557633992708</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="maybe tell it to use gpus? valid flag?">
+      <created>1557634435337</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1557634435337</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="248" width="1164" height="778" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.35650623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,7 +437,8 @@
     <MESSAGE value="clean memory" />
     <MESSAGE value="64 batch" />
     <MESSAGE value="32 batch" />
-    <option name="LAST_COMMIT_MESSAGE" value="32 batch" />
+    <MESSAGE value="maybe tell it to use gpus? valid flag?" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe tell it to use gpus? valid flag?" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/resnet_main.py" />
@@ -459,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="163">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
