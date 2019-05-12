@@ -41,6 +41,7 @@ spec:
         - --resnet_size=50
         - --num_gpus=8
         - --epochs_between_evals=1
+        - --eval_only=True
         env:
           # The Google Cloud Storage location where the fake ImageNet dataset is
           # stored.
