@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e254fe-1b73-4773-8cdf-e6f2adf3c668" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resnet_k8s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resnet_k8s.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +18,13 @@
     <session id="-1941870524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,16 +45,16 @@
         <counts>
           <entry key="Dockerfile" value="383" />
           <entry key="py" value="183" />
-          <entry key="txt" value="506" />
-          <entry key="yaml" value="352" />
+          <entry key="txt" value="515" />
+          <entry key="yaml" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="383" />
-          <entry key="PLAIN_TEXT" value="506" />
+          <entry key="PLAIN_TEXT" value="515" />
           <entry key="Python" value="183" />
-          <entry key="YAML" value="352" />
+          <entry key="YAML" value="386" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="404">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -119,7 +120,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="248" />
+    <option name="y" value="68" />
     <option name="width" value="1164" />
     <option name="height" value="778" />
   </component>
@@ -128,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +140,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,14 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557634435337</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="eval only">
+      <created>1557680438204</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557680438204</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="248" width="1164" height="778" extended-state="0" />
+    <frame x="0" y="68" width="1164" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.3627451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.36898395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50291544" side_tool="true" weight="0.31639928" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +447,8 @@
     <MESSAGE value="64 batch" />
     <MESSAGE value="32 batch" />
     <MESSAGE value="maybe tell it to use gpus? valid flag?" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe tell it to use gpus? valid flag?" />
+    <MESSAGE value="eval only" />
+    <option name="LAST_COMMIT_MESSAGE" value="eval only" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/resnet_main.py" />
@@ -466,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="404">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
