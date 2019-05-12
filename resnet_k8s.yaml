@@ -38,6 +38,7 @@ spec:
         - --data_dir=$(DATA_BUCKET)
         - --model_dir=$(MODEL_BUCKET)
         - --train_batch_size=32
+        - --num_gpus=8
         - --hparams=train_steps=400320
         - --hparams=use_tpu=False
 
