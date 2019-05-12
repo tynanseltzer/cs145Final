@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e254fe-1b73-4773-8cdf-e6f2adf3c668" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resnet_k8s.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resnet_k8s.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,16 +45,16 @@
         <counts>
           <entry key="Dockerfile" value="383" />
           <entry key="py" value="183" />
-          <entry key="txt" value="369" />
-          <entry key="yaml" value="200" />
+          <entry key="txt" value="467" />
+          <entry key="yaml" value="280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="383" />
-          <entry key="PLAIN_TEXT" value="369" />
+          <entry key="PLAIN_TEXT" value="467" />
           <entry key="Python" value="183" />
-          <entry key="YAML" value="200" />
+          <entry key="YAML" value="280" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+            <state relative-caret-position="454">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -119,7 +120,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="67" />
+    <option name="y" value="248" />
     <option name="width" value="1164" />
     <option name="height" value="778" />
   </component>
@@ -328,11 +329,53 @@
       <option name="project" value="LOCAL" />
       <updated>1557605574041</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Memory issues, decreasing batch size">
+      <created>1557631810855</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557631810855</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Slightly less lol">
+      <created>1557631888163</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557631888163</updated>
+    </task>
+    <task id="LOCAL-00019" summary="even less">
+      <created>1557631931623</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557631931623</updated>
+    </task>
+    <task id="LOCAL-00020" summary="clean memory">
+      <created>1557632224991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557632224991</updated>
+    </task>
+    <task id="LOCAL-00021" summary="64 batch">
+      <created>1557632384830</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557632384830</updated>
+    </task>
+    <task id="LOCAL-00022" summary="32 batch">
+      <created>1557633992708</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557633992708</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="67" width="1164" height="778" extended-state="0" />
+    <frame x="0" y="248" width="1164" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49708456" visible="true" weight="0.35650623" />
@@ -383,7 +426,13 @@
     <MESSAGE value="Using my own docker" />
     <MESSAGE value="not installing tensorflow twice" />
     <MESSAGE value="Indenting python command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Indenting python command" />
+    <MESSAGE value="Memory issues, decreasing batch size" />
+    <MESSAGE value="Slightly less lol" />
+    <MESSAGE value="even less" />
+    <MESSAGE value="clean memory" />
+    <MESSAGE value="64 batch" />
+    <MESSAGE value="32 batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="32 batch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/resnet_main.py" />
@@ -410,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resnet_k8s.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        <state relative-caret-position="454">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
