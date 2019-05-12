@@ -37,8 +37,8 @@ spec:
         - /tensorflow_tpu_models/models/official/resnet/resnet_main.py
         - --data_dir=$(DATA_BUCKET)
         - --model_dir=$(MODEL_BUCKET)
-        - --train_batch_size=32
-        - --hparams=train_steps=50040
+        - --train_batch_size=128
+        - --hparams=train_steps=100080
         - --hparams=use_tpu=False
 
 
