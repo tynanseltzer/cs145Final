@@ -39,7 +39,7 @@ spec:
         - --model_dir=$(MODEL_BUCKET)
         - --train_epochs=40
         - --resnet_size=50
-        - --num_gpus=2
+        - --num_gpus=1
         - --epochs_between_evals=1
         - --batch_size=256
         env:
@@ -62,4 +62,4 @@ spec:
             # A single v2-8 Cloud TPU device consists of 4 chips, each of which
             # has 2 cores, so there are 8 cores in total.
             #cloud-tpus.google.com/v3: 8
-            nvidia.com/gpu: 2
+            nvidia.com/gpu: 1
